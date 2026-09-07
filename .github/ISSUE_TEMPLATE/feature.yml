@@ -1,0 +1,30 @@
+name: Feature request
+description: Describe a user problem or improvement for Damdit.
+title: "[Request] "
+labels:
+  - feedback
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the situation and its impact, not only a proposed feature.
+    validations:
+      required: true
+  - type: textarea
+    id: current-workaround
+    attributes:
+      label: How do you handle it today?
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would a useful outcome look like?
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have not included credentials, private audit reports, or personal data.
+          required: true
