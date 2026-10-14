@@ -1,23 +1,22 @@
 # Damdit
 
-Damdit is a macOS app for auditing websites and turning findings into work that can be reviewed and verified.
+Damdit is a desktop app for auditing websites: it finds technical issues, shows the evidence behind each finding, and helps you decide what to fix first. It runs on your computer and never edits the website it audits. Website: [damdit.com](https://damdit.com) · Documentation: [docs.damdit.com](https://docs.damdit.com).
+
+The first release is for Mac with Apple silicon (macOS 14 or later). Windows and Linux follow; see the [roadmap](ROADMAP.md).
 
 This repository is the public home for:
 
-- product issues and feature requests;
+- bug reports and feature requests;
 - the public roadmap;
-- release notes and public documentation.
+- release notes.
 
-The application source code, internal planning, customer reports, credentials, and security-sensitive implementation details are kept in a private repository.
-
-## Current status
-
-Damdit is under active development. Public roadmap items describe direction, not a guaranteed scope or delivery date.
+The application source code, internal planning, customer data, credentials and security-sensitive implementation details are kept private. Reports filed here are triaged by the maintainer and, when accepted, copied into the private tracker; the public issue stays open until the fix or decision is released and links to its release note.
 
 ## Feedback
 
+- Use a [bug report](../../issues/new?template=bug.yml) for reproducible behaviour that looks wrong. In Damdit, **Settings → About & Support → Report a Bug…** opens it with your app version and system filled in.
 - Use a [feature request](../../issues/new?template=feature.yml) for a problem or improvement you would like Damdit to address.
-- Use a [bug report](../../issues/new?template=bug.yml) for reproducible product behaviour that looks wrong.
-- Do not post website credentials, access tokens, private audit reports, personal data, or undisclosed security issues.
+- Questions about your account, licence or payment: write to support@damdit.com instead of opening an issue.
+- Do not post website credentials, access tokens, private audit reports, personal data or undisclosed security issues.
 
 For responsible disclosure, see [SECURITY.md](SECURITY.md).

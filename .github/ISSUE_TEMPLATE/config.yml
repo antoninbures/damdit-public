@@ -3,3 +3,9 @@ contact_links:
   - name: Security report
     url: https://github.com/antoninbures/damdit-public/security/advisories/new
     about: Report a suspected vulnerability privately.
+  - name: Account, licence or payment
+    url: mailto:support@damdit.com
+    about: Questions about your Damdit account, licence or payment go to support.
+  - name: Documentation
+    url: https://docs.damdit.com
+    about: How Damdit works, settings and troubleshooting.
